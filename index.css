@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #f5E1Ad;
+    font-family: Arial, Helvetica, sans-serif;
+    color: saddlebrown;
+    
+
+}
+.main{
+     width: 100%; 
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+
+}
+.navbar{
+   
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar h2{
+      width: 150px;  
+    margin-top: 0%;
+    margin-left: -25%;
+    
+   
+   
+
+}
+ul{
+    margin-top: 0%;
+    margin-right: -20%;
+
+}
+ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: saddlebrown;
+}
+.get{
+
+    background-color: saddlebrown;
+    color: white;
+    border-radius:50px;
+border: 6px solid saddlebrown;
+}
+h1{
+    font-size: 160px;
+    font-weight: bolder;
+    margin-left: -90px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.welcome{
+    margin-left: 100px;
+    font-weight: bold;
+  
+    
+}
+.mali h1{
+    margin-left: 630px;
+    font-weight: bolder;
+    font-size: 220px;
+    margin-top:-100px;
+    
+ 
+}
+.started{
+    margin-left: 100px;
+    border: 6px solid saddlebrown;
+    padding: 5px 5px;
+    border-radius: 20px;
+    background-color: saddlebrown;
+    color: white;
+     box-shadow: 0 0 10px rgb(17, 8, 3);
+
+}
+.arrow{
+  border: 1px solid white;
+    padding: 5px 5px;
+    border-radius: 70px;
+    background-color: white;
+    color:black;
+   
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 980px;
+    gap:20px;
+  
+}
+.icon span{
+    border: 5px solid rgb(252, 248, 248);
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.parag{
+    margin-top: -10px;
+    font-size: medium;
+}
+.paragraphy{
+    margin-top: -40px;
+    font-size: medium;
+    margin-left: 750px;
+    font-weight: bold;
+}
+.img{
+  position: absolute;
+  top: 0%;
+    left: 10%;
+    z-index: 1;
+}
+.pa{
+    font-weight: bold;
+    margin-top: 1%;
+    margin-left: 1100px
+
+
+}
