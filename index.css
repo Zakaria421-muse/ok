@@ -9,6 +9,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: saddlebrown;
     
+    
 
 }
 .main{
@@ -31,26 +32,29 @@ body{
     margin-top: 0%;
     margin-left: -25%;
     
-   
-   
-
 }
 ul{
     margin-top: 0%;
     margin-right: -20%;
+    background-color: linear-gradient(45deg #4f1919,#ff3333);
 
 }
 ul li{
     list-style: none;
     display: inline;
     padding: 10px 16px;
+  
 }
-ul li a{
+.navbar  li a{
+    text-decoration: none;
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;
     color: saddlebrown;
+    transition: color 0.5s ease, background-color 0.5s ease;
+    
 }
+
 .get{
 
     background-color: saddlebrown;
@@ -59,28 +63,44 @@ ul li a{
 border: 6px solid saddlebrown;
 }
 h1{
-    font-size: 160px;
+    
+    font-size: 220px;
     font-weight: bolder;
     margin-left: -90px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation: slideInleft 1s ease-out;
 }
 
 .welcome{
-    margin-left: 100px;
+    margin-left: 200px;
     font-weight: bold;
-  
+    font-size: 320px;
+    
     
 }
+@keyframes slideInleft{
+    0%{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
 .mali h1{
-    margin-left: 630px;
+    margin-left: 730px;
     font-weight: bolder;
-    font-size: 220px;
+    font-size: 200px;
     margin-top:-100px;
+
     
  
 }
+
 .started{
-    margin-left: 100px;
+    
+    margin-left: 220px;
     border: 6px solid saddlebrown;
     padding: 5px 5px;
     border-radius: 20px;
@@ -89,7 +109,7 @@ h1{
      box-shadow: 0 0 10px rgb(17, 8, 3);
 
 }
-.arrow{
+.arrows{
   border: 1px solid white;
     padding: 5px 5px;
     border-radius: 70px;
@@ -113,19 +133,20 @@ h1{
     font-size: 30px;
 }
 .parag{
-    margin-top: -10px;
+    margin-top: -30px;
     font-size: medium;
+    margin-left: 70;
 }
 .paragraphy{
     margin-top: -40px;
     font-size: medium;
-    margin-left: 750px;
+    margin-left: 900px;
     font-weight: bold;
 }
 .img{
   position: absolute;
   top: 0%;
-    left: 10%;
+    left: 20%;
     z-index: 1;
 }
 .pa{
@@ -135,3 +156,48 @@ h1{
 
 
 }
+    .malis{
+        width: 100%;
+        background-color: saddlebrown;
+        color:rgb(243, 228, 228);
+        padding: 15px 0;
+        border-top:4px dashed white;
+        border-bottom:4px dashed white;
+    
+        white-space: nowrap; 
+        position: relative; 
+        margin-top: 250px;
+
+    }
+    .malis-content {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        font-size: 75px;
+        font-weight: bold;
+        animation: scrollText 10s linear infinite; 
+    }
+    .arrow {
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        color: black;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+    }
+    @keyframes scrollText {
+        from {
+            transform: translateX(100%);
+        }
+        to {
+            transform: translateX(-100%);
+        }
+    }
+
+    
+
+
+    
